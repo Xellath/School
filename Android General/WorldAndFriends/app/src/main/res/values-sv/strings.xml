@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Världen och Vännerna</string>
+    <string name="username">Användarnamn</string>
+    <string name="username_hint">Eg. Rolf Axelsson</string>
+    <string name="button_continue">Fortsätt</string>
+    <string name="create_group">Skapa grupp</string>
+    <string name="join_group">Gå med i grupp</string>
+    <string name="leave_group">Lämna grupp</string>
+    <string name="user">"Användare: "</string>
+    <string name="undefined">Odefinierad</string>
+    <string name="disconnect">Koppla från</string>
+    <string name="refresh">Uppdatera</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{dd/MMM/yyyy HH:mm.ss.SSS} [%t] %-5level %logger{36} - %msg%n"></PatternLayout>
+		</Console>
+		
+		<RollingFile name="LogD" filePattern="logs/logfile-%d{yyyy-MM-dd}.log">
+			<PatternLayout pattern="%d{dd/MMM/yyyy HH:mm.ss.SSS} [%t] %-5level %logger{36} - %msg%n"></PatternLayout>
+			<Policies>
+				<!-- <TimeBasedTriggeringPolicy interval="1" modulate="true"></TimeBasedTriggeringPolicy> -->
+				<CronTriggeringPolicy schedule="0 0 0 * * ?"></CronTriggeringPolicy> 
+			</Policies>
+		</RollingFile>
+		
+	</Appenders>
+	<Loggers>
+	
+	<logger name="org.apache.tomcat.jdbc.pool">
+		<level value="debug"></level>
+	</logger>
+	
+		<Root level="info">
+			<AppenderRef ref="Console" level="info"></AppenderRef>
+			<appender-ref ref="LogD" level="info"></appender-ref>
+		</Root>
+	</Loggers>
+	
+</Configuration>

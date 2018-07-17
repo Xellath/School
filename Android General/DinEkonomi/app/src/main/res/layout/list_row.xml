@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp">
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_accomodation"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_title_placeholder"
+        android:typeface="sans"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="@string/list_date_placeholder"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:layout_toEndOf="@+id/thumbnail" />
+
+    <se.mah.af2015.dinekonomi.AmountTextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_amount_placeholder"
+        android:layout_marginEnd="5dp"
+        android:textSize="13sp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="5dp"
+        android:text="@string/list_category_placeholder"
+        android:layout_alignBaseline="@+id/category"
+        android:layout_alignBottom="@+id/category"
+        android:layout_toEndOf="@+id/category" />
+
+</RelativeLayout>

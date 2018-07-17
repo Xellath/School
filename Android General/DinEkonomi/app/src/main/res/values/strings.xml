@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Din Ekonomi</string>
+
+    <string name="social_identity">Personnummer</string>
+    <string name="logo">Logo</string>
+    <string name="login_continue">Fortsätt</string>
+    <string name="incorrect_pin">Fel PIN!</string>
+    <string name="wrong_id">Felaktigt personnummer!</string>
+    <string name="id_too_short">Personnumret är inte 10 tecken!</string>
+    <string name="overview">Översikt</string>
+
+    <string name="name">Förnamn</string>
+    <string name="surname">Efternamn</string>
+
+    <string name="settings_update">Uppdatera</string>
+    <string name="settings_updated">Inställningarna uppdaterade!</string>
+
+    <string name="menu_home">Hem</string>
+    <string name="menu_expenses">Utgifter</string>
+    <string name="menu_income">Inkomster</string>
+    <string name="menu_settings">Inställningar</string>
+
+    <string name="title">Titel</string>
+    <string name="amount">Belopp</string>
+    <string name="date">Datum</string>
+    <string name="income">Inkomst</string>
+    <string name="expense">Utgift</string>
+    <string name="category">Kategori</string>
+    <string name="add">Lägg till</string>
+
+    <string name="list_title_placeholder">PayPal</string>
+    <string name="list_date_placeholder">2014-11-22 12:45:34</string>
+    <string name="list_category_placeholder">Övrigt</string>
+    <string name="list_amount_placeholder">-351.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

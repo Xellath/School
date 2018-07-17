@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_86b501c9dd917f352403caedacf628ccfa5f6dbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_67c208d91cb18a0d708bb1ecf36cf05a49c5c337/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_2f5eeb5621245d4e30cf78eb5f215fa538785ea7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_b30009121ce30ba4e8cde8fb33b05c4452703c55/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_ee2cbf20761755de9fc319665a327d4b09a4968f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_ffa03a9f98cf93317a8e9883d7f42f0da669e2a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_d8dbc98208b78b6b6ea6365ff9c3d3f362ffdec9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_3b7417ea35577564a78f8a827799c59be6c15ebe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_91bcaed992101fed5f186a1c088e512ca88de614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2b42d0e7ec3717793ce0837e63acb45ae32ce8d5">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1f3d068eb53fe9b6e7fd75ed02b81069c89f6fa4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_a1c3d85bfcc338597e50add0125c58a28b8224b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c28af639a60c5ab7638d162ae9a812752d0e867">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/P4/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_18218ff6f08f4fae4cfdc4c83cc6bdec643c8f61/classes.dex" />
+    </item>
+
+</items>

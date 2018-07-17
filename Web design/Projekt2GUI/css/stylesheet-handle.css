@@ -1,0 +1,95 @@
+.navbar-brand > span > img {
+    max-height: 100%;
+    margin-right: 5px;
+}
+
+#container-content {
+    padding: 0px;
+}
+
+.center-div {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.fa-question-circle, .btn-sm {
+    margin-right: 5px;
+    margin-top: 3px;
+
+}
+
+.file {
+    visibility: hidden;
+    position: absolute;
+}
+
+#media {
+    width:100%;
+}
+
+input.wrongAnswerForm {
+    margin-bottom: 5px;
+}
+
+#btnAdd:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.fa-stack {
+    font-size: 25px;
+}
+
+#btnAdd {
+    font-size: 25px;
+    color: white;
+}
+
+img, video, audio {
+    max-width: 300px;
+}
+
+#input-edit-form {
+    display: inline;
+}
+
+#inputEditTheme {
+    width: auto;
+    display: inline;
+    vertical-align: middle;
+}
+
+.question-list-text {
+    display:inline-block;
+    width:75%;
+    word-wrap:break-word;
+}
+
+#trash-theme-text {
+    display:inline-block;
+    width:75%;
+    word-wrap:break-word; 
+}
+
+.login-a {
+    margin-right: 1%;
+}
+
+@media screen and (max-width: 480px){
+    .question-list-text {
+        display:inline-block;
+        width:60%;
+        word-wrap:break-word;
+    }
+
+    #trash-theme-text {
+        display:inline-block;
+        width:60%;
+        word-wrap:break-word; 
+    }
+}

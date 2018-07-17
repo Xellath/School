@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="se.mah.af2015.p4.MovementActivity">
+
+    <TextView
+        android:text="@string/step_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:id="@+id/sign_in"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/steps_taken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:id="@+id/sensor_steps_taken"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/sign_in"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true"
+        android:drawableStart="@drawable/ic_action_step"
+        android:drawableLeft="@drawable/ic_action_step"
+        android:gravity="center" />
+
+    <TextView
+        android:text="@string/steps_per_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:id="@+id/sensor_steps_ps"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/sensor_steps_taken"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true"
+        android:drawableStart="@drawable/ic_action_step"
+        android:drawableLeft="@drawable/ic_action_step"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        app:srcCompat="@drawable/compass"
+        android:id="@+id/compass"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/reset_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sign_in"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/reset_button" />
+
+</RelativeLayout>

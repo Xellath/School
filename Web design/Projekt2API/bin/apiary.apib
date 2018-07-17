@@ -1,0 +1,198 @@
+FORMAT: 1A
+HOST: http://213.67.43.138:7500
+
+# Q.C.A.P.I
+Question Collection Application Programming Interface Q.C.A.P.I is a RESTful web API 
+containing questions organized according to themes. The questions may for example be used in quiz applications.
+
+To use the API you have to register for an API-key. 
+Additionally Update and Remove operations requires an admin username and password.
+
+# Group Endpoints
+## Retrive Endpoints [GET /api/endpoints] 
+You may use this action to retrive all public endpoints from the API.
++ Request 
+    + Headers
+
+             Authorization: key=
+             
++ Response 200 (application/json)
+
+    + Attributes(array[Endpoint])
+
+# Group Themes
+Themes may be viewed as categories. 
+A theme has a name, id and a number of questions associated with it.
+### Add a New Theme [POST /api/themes]
+You may add a new theme using this action. It takes a JSON object containing the name of the new theme 
+and returns a URL of the added theme in the Location header. 
++ Request (application/json)
+    + Headers
+
+              Authorization: key=
+
+    + Attributes
+        + theme: cities
+
++ Response 201
+    + Headers
+
+                Location: /api/themes/cities
+
+### List Themes [GET /api/themes{?pageSize,minimumNumberOfQuestions}]
+You may use this action to retrive an JSON array of available themes. The action can be filtered with query parameters.
++ Parameters
+    + pageSize: 1 (String, Optional) - Limit the number of themes.
+    + minimumNumberOfQuestions: 1 (number, Optional) - Minimum number of questions related to the theme.
+
++ Request (application/json)
+    + Headers
+
+             Authorization: key=
+
++ Response 200 (application/json)
+    + Attributes(array[Theme])
+
+
+### Get Questions From A Specific Theme [GET /api/themes/{id}{?pageSize,pageStart}]
+You may use this action to retrive a JSON array of questions from a certain theme. 
+The action can be filtered with query parameters.
++ Parameters
+    + id: cities (String) - An unique identifier of a question.
+    + pageSize: 15 (optional) - Limit the number of questions.
+    + pageStart: 10 (optional) - Which question number to begin from.
+        + default: 0
+
++ Request (application/json)
+    + Headers
+
+            Authorization: key=
+
++ Response 200 (application/json)
+     + Attributes(array[getQuestion])
+
+## Single Theme Actions [/api/themes/{id}]
++ Parameters
+    + id: updated cities (String) - An unique identifier of a question.
+
+### Update a Theme [PUT]
+You may use this action to change a the name of a theme. Requires admin credentials.
++ Request (application/json)
+     + Headers
+
+            Authorization: key=,user=,password=
+    + Attributes(object)
+        + theme: updated cites
+
++ Response 200
+    + Headers
+
+                Location: /api/themes/updated cities
+
+### Remove a Theme [DELETE]
+You may use this action to delete a theme. Note that removing a theme also deletes all associated questions. 
+Admin credentials are requierd.
++ Request (application/json)
+     + Headers
+
+                Authorization: key=,user=,password=
+
++ Response 204
+
+# Group Questions
+A question is connected to a theme and contains a question, a right answer, atleast two wrong answers
+and may have an image or a video/audio-file as well.
+### Create a New Question [POST /api/questions]
+You may create your own question using this action. It takes a JSON object and 
+returns a URL of the added question in the Location header. 
++ Request (application/json)
+    + Headers
+
+            Authorization: key=
+
+    + Attributes(baseQuestion)
+     + media: image/audio/video or empty
+
++ Response 201
+    + Headers
+
+            Location: /api/questions/{id}
+
+### List Questions [GET /api/questions{?theme,pageSize,pageStart}]
+You may use this action to retrive an JSON array of questions. The action can be filtered with query parameters.
+If no query parameters are given three random questions are returned by default.
++ Parameters
+    + theme:cities (string, optional) - A unique identifier of a theme.
+    + pageSize:1 (number, optional) - The number of questions to be returned.
+    + pageStart: 0 (number, optional)- The question ID to start from.
+You may use this action to retreive a random question.
++ Request (application/json)
+    + Headers
+
+            Authorization: key=
+
++ Response 200 (application/json)
+      + Attributes(array[getQuestion])
+
+## Single Question actions [/api/questions/{id}]
++ Parameters
+    + id:1 (number) - An unique identifier of a question.
+
+### Get a Question [GET]
+You may use this action to retreive a single question.
++ Request (application/json)
+    + Headers
+
+            Authorization: key=
+
++ Response 200 (application/json)
+    + Attributes (getQuestion)
+
+### Update a Question [PUT]
+You may update a question using this action. It takes a JSON object and 
+returns a URL of the added question in the Location header. Requires admin credentials.
++ Request (application/json)
+    + Headers
+
+            Authorization: key=,user=,password=
+
+    + Attributes(baseQuestion)
+        + media: media,
+        + mediaAction: delete
+
++ Response 200
+    + Headers
+
+            Location: /api/questions/{id}
+
+### Delete a Question [DELETE]
+You may use this action to delete a single question. Requires admin credentials.
++ Request (application/json)
+    + Headers
+
+            Authorization: key=,user=,password=
+
++ Response 204
+
+# Data Structures
+
+## Endpoint (object)
++ name: endpoint (string, required)
+
+## Theme (object)
++ theme: name of theme (required)
++ themeId: 1 ( number, required)
++ nbrOfQuestions: 1 (number, required)
+
+## getQuestion (object)
++ include baseQuestion
++ mediaType : image or audio or video (optional)
++ mediaURL: adress/234845853.png (optional)
+
+## baseQuestion (object)
++ id: 1 (number, required)
++ question: a question (required)
++ theme: theme question belongs to (required)
++ correctanswer: the correct anwser (required)
++ incorrectanswers: first incorrect, second incorrect, etc (array, required)
+

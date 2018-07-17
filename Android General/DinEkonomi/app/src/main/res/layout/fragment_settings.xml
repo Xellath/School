@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <TextView
+        android:text="@string/social_identity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_id"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/personal_identity"
+        android:textIsSelectable="false"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:allowUndo="true"
+        android:imeOptions="actionDone"
+        android:layout_below="@+id/tv_id"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:enabled="false" />
+
+    <TextView
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/personal_identity"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/name"
+        android:textIsSelectable="false"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:allowUndo="true"
+        android:imeOptions="actionDone"
+        android:layout_below="@+id/tv_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="@string/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_surname"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/surname"
+        android:textIsSelectable="false"
+        android:padding="5dp"
+        android:textAlignment="textStart"
+        android:textSize="20sp"
+        android:allowUndo="true"
+        android:imeOptions="actionDone"
+        android:layout_below="@+id/tv_surname"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:text="@string/settings_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/surname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_update"
+        android:background="@color/colorPrimary" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#323232</color>
+    <color name="colorPrimaryDark">#323232</color>
+    <color name="colorAccent">#323232</color>
+    <color name="colorDark">#2ecc71</color>
+    <color name="defaultDot">#212121</color>
+    <color name="selectedDot">#e67e22</color>
+    <color name="colorBad">#ff6f00</color>
+    <color name="colorGood">#ffff00</color>
+    <color name="colorPerfect">#00DD00</color>
+    <color name="white">#fff</color>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/45e9fbd0bdfce4e22f9f5da71e07d6ce934684e2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1a34571b6f6b5641a18e3a602a49ebcc703751f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/90bf546f96a6bd3d2cbd60f282bbd70c4a748096/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f10d2249c6402195f9a628d8811fdf18278f6f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/b08d0a28ec89631f97962339e69a6d785ac3c137/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3ee562d692d08f53b0d59186c43d0b8d5fa8d923/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/c0d18bd0cc81360367428e9c2550d2206c2a60c7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c2f2c74f9395a4dfca6e023811c0ccdecc6025b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/a1fa0b6d9ec95e3ef299f7ba10a6631db03bfb62/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a26926a64cb74f2374a3693bef989d830b0f4065/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/a7db97833231d6a5bd83df63ec063f81935441b1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a14baa8b713b5eac4761e870817ef9e2d5eaf975/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/b9c96e9b965611829a7fba3e001c07af1f58c08c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d836388472e03eb12bb98cc57e715c00386c78ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_de49e947021f0dc0a033b078538c4d3c58329173/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/a8902842bfcf21ebdcf38e9a6597ac56c78e8cca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_775cdc404b0487a7fe71020a53b634073772513d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/c1d647fdef900f7b91307fc2645eb631703542bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6c4aab54ca992da243c84f217693dd5a3762bba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/cab6f294f9134619b1cb2f7920d113574a1ecc04/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0c11eabb7bc25aeea55902dd3211d9c4c9db915d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/7a66b4fbee272c9e29647edac5d865573eb54847/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_22ce76e2c8cbb9fc345b6fbcc955987156b9bddb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_91bcaed992101fed5f186a1c088e512ca88de614/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.android/build-cache/e3d7363a7efd1c1b377388c147f34544651b39f4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dcfc975b3350330a71c9f016da6cc27893664fd8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18730f0b2b83cb77b07319c04695767f3a950322">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/Beets/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b88bc44df3bbe610171feb8bdd3fa82b683db4dd/classes.dex" />
+    </item>
+
+</items>

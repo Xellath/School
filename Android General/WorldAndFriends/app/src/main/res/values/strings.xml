@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">World And Friends</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Ie. Rolf Axelsson</string>
+    <string name="button_continue">Continue</string>
+    <string name="create_group">Create group</string>
+    <string name="join_group">Join group</string>
+    <string name="leave_group">Leave group</string>
+    <string name="user">"User: "</string>
+    <string name="undefined">Undefined</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="refresh">Refresh</string>
+</resources>

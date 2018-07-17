@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/flexible_space_image_height"
+                android:background="@android:color/transparent" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/white">
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/summoner_spell1"
+                    android:layout_marginEnd="32dp"
+                    android:visibility="invisible"
+                    android:layout_alignTop="@+id/summoner_spell2"
+                    android:layout_toStartOf="@+id/summoner_spell2"
+                    android:layout_marginBottom="30dp"/>
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/summoner_spell2"
+                    android:shadowColor="#FFFFFF"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:visibility="invisible"
+                    android:layout_marginTop="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/summoner_ultimate"
+                    android:layout_marginStart="32dp"
+                    android:visibility="invisible"
+                    android:layout_alignTop="@+id/summoner_spell2"
+                    android:layout_toEndOf="@+id/summoner_spell2" />
+
+                <ProgressBar
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/circular_progress_bar"
+                    android:id="@+id/progress_bar_spell1"
+                    android:layout_alignStart="@+id/summoner_spell1"
+                    android:layout_alignEnd="@+id/summoner_spell1"
+                    android:layout_alignTop="@+id/summoner_spell1"
+                    android:layout_alignBottom="@+id/text_spell1"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/text_spell1"
+                    android:gravity="center"
+                    android:textColor="@color/colorProgressNumber"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:textAlignment="center"
+                    android:layout_alignStart="@+id/summoner_spell1"
+                    android:layout_alignEnd="@+id/summoner_spell1"
+                    android:layout_alignTop="@+id/summoner_spell1"
+                    android:layout_alignBottom="@+id/summoner_spell1" />
+
+                <ProgressBar
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/circular_progress_bar"
+                    android:id="@+id/progress_bar_spell2"
+                    android:layout_alignStart="@+id/summoner_spell2"
+                    android:layout_alignEnd="@+id/summoner_spell2"
+                    android:layout_alignTop="@+id/summoner_spell2"
+                    android:layout_alignBottom="@+id/text_spell2"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/text_spell2"
+                    android:gravity="center"
+                    android:textColor="@color/colorProgressNumber"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:textAlignment="center"
+                    android:layout_alignStart="@+id/summoner_spell2"
+                    android:layout_alignEnd="@+id/summoner_spell2"
+                    android:layout_alignTop="@+id/summoner_spell2"
+                    android:layout_alignBottom="@+id/summoner_spell2" />
+
+                <ProgressBar
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/progress_bar_ultimate"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/circular_progress_bar"
+                    android:layout_alignStart="@+id/summoner_ultimate"
+                    android:layout_alignEnd="@+id/summoner_ultimate"
+                    android:layout_alignTop="@+id/summoner_ultimate"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/text_ultimate"
+                    android:gravity="center"
+                    android:textColor="@color/colorProgressNumber"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"
+                    android:textAlignment="center"
+                    android:layout_alignTop="@+id/summoner_ultimate"
+                    android:layout_alignStart="@+id/summoner_ultimate" />
+            </RelativeLayout>
+
+            <View xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="?attr/colorPrimary"
+                android:minHeight="1px" />
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgTier"
+                    android:src="@drawable/challenger"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tier"
+                    android:id="@+id/tier_text"
+                    android:layout_marginTop="26dp"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/imgTier"
+                    android:textColor="@color/colorAccent" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lp_win_loss"
+                    android:id="@+id/lp_win_loss"
+                    android:layout_below="@+id/tier_text"
+                    android:layout_alignStart="@+id/tier_text"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/win_ratio"
+                    android:id="@+id/win_ratio"
+                    android:layout_below="@+id/lp_win_loss"
+                    android:layout_alignStart="@+id/lp_win_loss"
+                    android:layout_alignEnd="@+id/lp_win_loss"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/champion_win_ratio"
+                    android:id="@+id/champ_win_ratio"
+                    android:layout_below="@+id/win_ratio"
+                    android:layout_alignStart="@+id/win_ratio"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin" />
+            </RelativeLayout>
+
+            <View xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="?attr/colorPrimary"
+                android:minHeight="1px" />
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/runes"
+                    android:id="@+id/runes_text"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:textColor="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/masteries_text"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/masteries"
+                    android:id="@+id/masteries_text"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:textColor="@color/colorAccent"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignEnd="@+id/masteries"
+                    android:layout_toEndOf="@+id/view"
+                    android:gravity="left" />
+
+                <View xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="1px"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/colorPrimary"
+                    android:minWidth="1px"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignBottom="@+id/runes"
+                    android:id="@+id/view" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tier"
+                    android:id="@+id/runes"
+                    android:paddingBottom="@dimen/activity_horizontal_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:layout_below="@+id/runes_text"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@+id/view"
+                    android:gravity="right" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tier"
+                    android:id="@+id/masteries"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:layout_below="@+id/masteries_text"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/view"
+                    android:gravity="left" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+</FrameLayout>

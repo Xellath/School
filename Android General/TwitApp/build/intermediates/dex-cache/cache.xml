@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.1/b9d63507329a7178e026fc334f87587ee5070ac5/gson-2.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.1_552cb3e6e92f2298864121f05d1f96af2e3b3f0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_77a6cafd5513cbb2c9a422d0ddcfda0f7444b1bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_1ec32d8bb9ccead293f8cb375cc01df0feb2a5e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="141bdfa1eda77e91a5304b0fa287534c17123166">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.twitter.sdk.android-twitter-core-2.1.0_281f63b88c4a4aa233379652b9b5d83afcfc1dec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a9f8d34f6642cb5acfa0fd24791c03bd60a97321/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_7874c1ebcfb784c653881397ade21bef522f5802/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bc93a54c30b4f4fda47f394906e3fd001fad0f61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_cf46b1e9b8e08fc1b7abcc4b7600472615e93451/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="008acb16d58eee029cac600b7c16f84a3b3a0940">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0c4ab586bd1fb54c3fbd75afc1ed1a0d0730461d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_63eb8b2dd575f3fe256f81ac00435e40ba0305ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.14/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a319fd4d548ba4cc9511561d37109ba922bfbf6a">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.14_d8d15cf229c52955ecd2e5997818464a2cd8a772/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_48155eeda5f6b875bf1b26ee76a342585b5c7e88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3c2d8068e1eb265aef4b2bc598ec60ca68c05ec9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.gradle/caches/modules-2/files-2.1/com.twitter/twitter-text/1.13.0/78415b95ae3184c5926d593feab64bfc0b73b2dd/twitter-text-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="78415b95ae3184c5926d593feab64bfc0b73b2dd">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/twitter-text-1.13.0_b2fdec6dfb24053371628925ef440adb38ce2d85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fec53ac7bddc8ae74155e43b91440ee216ffaa86">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.twitter.sdk.android-tweet-composer-2.1.0_de63d644125eecbc54bf011b0e0f0d1c436f7541/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/2.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3eead64d9f87f223bca112ed439c3b7132355250">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.twitter.sdk.android-tweet-ui-2.1.1_56076b34481115a840e886b639babe312457449c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2b98373e1c760bb1d3f8b65e8c5b73fd9d3adec9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_b7f1a558e811754d5c1e3bcd11fc02dc3bc5775a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_1235c97972685c64647dca9ead8e27f5135e1b35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_d6c78e2dd6a3358170ef1d6edc076eb7174c77e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_fa5b27aec686d769ae514fbe6407fbd322246bf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_af35f51039dd871df4cacae4bee824d43abfaa99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_caa45f81419a69130ef24c231fe1a248b6dbfe41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_14c71a2d8f7f4bb257544ad26dc82a3a2ea6d975/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_34ec837ed6b8c8da107521076600afaf8d393a6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter/2.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="37e9c697db4b3b7f61249b4df0d758cdd85338e2">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.twitter.sdk.android-twitter-2.1.1_c833ff6336a1d0a1dd5f75082f6f70ac84276adb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.2_ee891388ee5f4d0921a68fd7eb277eaf3a34881c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_c92873f3f9d844bb3b1644d58d5ee977294c4834/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="aba041c0d62118b3f7804d8129df1e1e8fafcdfd">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8cee7dccd4193cfbaf7d6d6350d1cfba16306d6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_fb54d15ad3fec2747af8c5d734a7bd8f68286ef1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/alexanderjohansson/GitHub Projects/TwitApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_c09d46e9d7039d91f979afd2aef64fb53986751c/classes.dex" />
+    </item>
+
+</items>

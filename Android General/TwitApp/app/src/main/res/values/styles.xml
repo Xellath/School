@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="TwitTube" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="colorAccent">@color/tw__composer_blue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Freeelo</string>
+    <string name="search">Search</string>
+    <string name="summoner_name">Enter Summoner</string>
+    <string name="enter_name">Please enter a summoner name!</string>
+    <string name="not_in_game">Summoner %s is not in an active game.</string>
+    <string name="error">Error</string>
+
+    <string name="runes">Runes</string>
+    <string name="masteries">Masteries</string>
+
+    <string name="reset_spell">Spell was reset through long click, countdown reset.</string>
+
+    <string name="ranked_stats">Ranked Stats</string>
+    <string name="tier">Provisional</string>
+    <string name="lp_win_loss" formatted="false">%d LP / %dW %dL</string>
+    <string name="win_ratio" formatted="false">Win Ratio %.1f%s</string>
+    <string name="champion_win_ratio" formatted="false">Champion Win Ratio %.1f%s</string>
+
+    <string name="patch_data_notcurrent">Patch data does not match current patch data. Updating...</string>
+    <string name="patch_data_complete_proceeding">"Patch data was downloaded and updated. Proceeding with search...</string>
+
+    <string-array name="regions">
+        <item>EUW</item>
+        <item>EUNE</item>
+        <item>NA</item>
+        <item>KR</item>
+        <item>RU</item>
+        <item>TR</item>
+        <item>LAN</item>
+        <item>LAS</item>
+        <item>BR</item>
+        <item>OCE</item>
+        <item>JP</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">The Pathfinder</string>
+
+    <string name="step_info">Step Information</string>
+    <string name="steps_taken">Steps Taken:</string>
+    <string name="steps_per_second">Steps per second:</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="shake">Shake!!!</string>
+    <string name="data_reset">Data has been reset!</string>
+
+    <string name="accelerometer">Accelerometer</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="step_detector">Step Detector</string>
+
+    <string name="login">Sign in</string>
+    <string name="authorize">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+
+    <string name="invalid_credentials">Invalid credentials!</string>
+
+    <string name="does_not_exist">%s sensor does not exist!</string>
+    <string name="listeners_registered">Sensors have been registered!</string>
+    <string name="listeners_unregistered">Sensors have been unregistered!</string>
+</resources>

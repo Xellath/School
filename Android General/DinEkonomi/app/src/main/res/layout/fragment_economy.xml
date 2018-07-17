@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EconomyFragment">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:id="@+id/view2"
+        android:background="?attr/colorButtonNormal"
+        android:minHeight="1px"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/tv_title"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/menu_expenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_title"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/pie_chart"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:id="@+id/view1"
+        android:background="?attr/colorButtonNormal"
+        android:minHeight="1px"
+        android:layout_below="@+id/pie_chart"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/view2" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_date_range"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/date_picker"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/list_view"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_clear"
+        android:id="@+id/clear_date"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_toStartOf="@+id/date_picker"
+        android:layout_below="@+id/view1" />
+
+</RelativeLayout>

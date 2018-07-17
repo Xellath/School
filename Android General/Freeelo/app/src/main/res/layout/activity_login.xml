@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context="com.grupp32.activity.LoginActivity"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:id="@+id/search"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <Spinner
+            android:layout_width="0.0dip"
+            android:layout_weight="0.35"
+            android:layout_height="fill_parent"
+            android:background="@drawable/search_bar"
+            android:id="@+id/region"
+            android:focusable="false" />
+
+        <AutoCompleteTextView
+            android:background="@drawable/search_bar"
+            android:layout_width="0.0dip"
+            android:layout_weight="1.0"
+            android:layout_height="fill_parent"
+            android:id="@+id/summoner_name"
+            android:hint="@string/summoner_name"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"/>
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/search_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.40"
+            app:cpb_textIdle="@string/search"
+            app:cpb_iconError="@drawable/ic_error"
+            app:cpb_iconComplete="@drawable/ic_done"
+            app:cpb_colorIndicator="@color/colorAccent"
+            app:cpb_selectorIdle="@drawable/idle_state_selector" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/logo"
+        android:background="@drawable/ic_logo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

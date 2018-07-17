@@ -1,0 +1,46 @@
+.navbar-brand > span > img {
+    max-height: 100%;
+    margin-right: 5px;
+}
+
+#container-content {
+    padding: 0px;
+}
+
+.fa-stack {
+    font-size: 35px;
+}
+
+#btnAdd {
+    font-size: 35px;
+    color: white;
+}
+
+.file {
+    visibility: hidden;
+    position: absolute;
+}
+
+input.wrongAnswerForm {
+    margin-bottom: 5px;
+}
+
+.center-div {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#btnAdd:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#poster {
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
+.login-a{
+    margin-right: 1%;
+}
