@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">P1</string>
+    <string name="basic">The Very Basic</string>
+    <string name="sensing_station">The Sensing Station</string>
+
+    <string name="sensor">Sensor</string>
+    <string name="sensor_event_data">Sensor Event Data</string>
+    <string name="name">Name:</string>
+    <string name="max_range">Max Range:</string>
+    <string name="min_delay">Min Delay:</string>
+    <string name="power">Power:</string>
+    <string name="resolution">Resolution:</string>
+    <string name="vendor">Vendor:</string>
+    <string name="version">Version:</string>
+
+    <string name="value">Value (%d):</string>
+    <string name="accuracy">Accuracy:</string>
+    <string name="timestamp">Timestamp:</string>
+
+    <string name="does_not_exist">Sensor does not exist!</string>
+    <string name="listener_registered">Sensor has been registered!</string>
+    <string name="listener_unregistered">Sensor has been unregistered!</string>
+</resources>

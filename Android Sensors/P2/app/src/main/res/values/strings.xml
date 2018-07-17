@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">The Weather Channel</string>
+
+    <string name="sensor_readings">Sensor Readings</string>
+    <string name="api_readings">API Readings</string>
+
+    <string name="temperature">Temperature:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="timestamp">Timestamp:</string>
+    <string name="current_city">Current City:</string>
+
+    <string name="temperature_unit">C</string>
+    <string name="pressure_unit">hPa</string>
+    <string name="humidity_unit">%</string>
+    <string name="altitude_unit">m</string>
+
+    <string name="use_async">Use Async</string>
+    <string name="use_volley">Use Volley</string>
+    <string name="request_data">Request Data</string>
+
+    <string name="using_current_location">Finding data based on current location.</string>
+    <string name="could_not_find_loc">Could not find location, using Malmö coordinates for request.</string>
+    <string name="api_no_results">API could not provide any results for current location.</string>
+
+    <string name="combined_data">Combined Data</string>
+    <string name="info">In this section you can calculate estimated altitude, given that data has been gathered correctly from the API.</string>
+    <string name="estimated_altitude">Estimated altitude:</string>
+    <string name="estimate">Estimate Altitude</string>
+    <string name="could_not_estimate">Could not estimate value, Sensor or API data missing.</string>
+    <string name="could_not_connect">Request to API failed, check your internet connection.</string>
+
+    <string name="does_not_exist">%s sensor does not exist!</string>
+    <string name="listeners_registered">Sensors have been registered!</string>
+    <string name="listeners_unregistered">Sensors have been unregistered!</string>
+</resources>

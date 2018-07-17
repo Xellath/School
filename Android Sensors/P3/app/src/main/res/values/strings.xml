@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lightbender</string>
+    <string name="sensor_readings">Sensor Readings</string>
+    <string name="lux">Lux:</string>
+    <string name="proximity">Proximity:</string>
+
+    <string name="lux_unit">lx</string>
+    <string name="proximity_unit">cm</string>
+
+    <string name="use_window_brightness">Use Window Brightness</string>
+    <string name="use_system_brightness">Use System Brightness</string>
+
+    <string name="system_brightness_notification">Using System Brightness will set brightness PERMANENTLY.</string>
+
+    <string name="does_not_exist">%s sensor does not exist!</string>
+    <string name="listeners_registered">Sensors have been registered!</string>
+    <string name="listeners_unregistered">Sensors have been unregistered!</string>
+</resources>

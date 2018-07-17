@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:id="@+id/sensor"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/max_range"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/max_range"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/sensor"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:text="@string/max_range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/max_range"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:text="@string/min_delay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/min_delay"
+        android:layout_below="@+id/max_range"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:text="@string/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/power"
+        android:layout_below="@+id/min_delay"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:text="@string/resolution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/resolution"
+        android:layout_below="@+id/power"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:text="@string/vendor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/vendor"
+        android:layout_below="@+id/resolution"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:text="@string/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/version"
+        android:layout_below="@+id/vendor"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/version"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horizontal_line"
+        android:id="@+id/scroll">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/sensor_event_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:id="@+id/sensor_event_data"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentLeft="true"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:text="@string/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/values"
+                android:layout_below="@+id/sensor_event_data"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:text="@string/accuracy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/accuracy"
+                android:layout_below="@+id/values"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:text="@string/timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/timestamp"
+                android:layout_below="@+id/accuracy"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentLeft="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,215 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+#container-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.panel-heading {
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.media {
+    margin-bottom: 25px;
+}
+
+.media-body {
+    vertical-align: bottom !important;
+}
+
+.media-body p {
+    line-height: 10px;
+}
+
+.media-body p i {
+    vertical-align: middle;
+}
+
+.media-left {
+    padding: 15px 15px 10px 10px;
+}
+
+.navbar-brand > span > img {
+    max-height: 100%;
+    margin-right: 5px;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.table-image, .table-photo {
+    max-width: 100px !important;
+}
+
+.th-inner {
+    text-align: center;
+}
+
+td {
+    vertical-align: middle !important;
+    text-align: center;
+    line-height: 150px;
+}
+
+td > a {
+    padding: 10px 10px 10px 0;
+}
+
+.btn-center-td {
+    display: block !important;
+    margin: auto !important;
+}
+
+td > h3 {
+    font-size: 18px !important;
+}
+
+a.tooltip-icon, a.tooltip-icon:hover, a.tooltip-icon:visited, a.tooltip-icon:visited:hover {
+    color: #333 !important;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    border-radius: 6px 0px 0px 6px !important;
+}
+
+.fixed-table-pagination .btn-default {
+    border-radius: 6px !important;
+}
+
+.fixed-table-container {
+    border: none !important;
+}
+
+.page-header h3 .dropdown-toggle {
+    border-radius: 6px !important;
+}
+
+.bootstrap-select, .width-picker {
+    width: 133px !important;
+}
+
+.modal-image, .modal-audio, .modal-video {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hidden {
+    display: hidden;
+}
+
+/* Extra Small Devices, Small Phones */
+@media only screen and (max-width : 479px) {
+    body {
+        font-size: 10px !important;
+    }
+
+    .table-image {
+        max-width: 50px !important;
+    }
+
+    td > h3 {
+        font-size: 10px !important;
+    }
+
+    .bootstrap-table .table.table-no-bordered > tbody > tr > td {
+        font-size: 10px !important;
+    }
+
+    .width-picker {
+        width: 114px !important;
+    }
+
+    .input-group-lg > .input-group-btn > .btn {
+        font-size: 14px !important;
+    }
+
+    .input-group .form-control {
+        font-size: 14px !important;
+    }
+
+    .bootstrap-select {
+        width: 114px !important;
+    }
+
+    .page-header h1 {
+        font-size: 32px !important;
+    }
+
+    .page-header h3 {
+        font-size: 15px !important;
+    }
+
+    .bootstrap-table .table:not(.table-condensed) > tbody > tr > td {
+        padding: 4px !important;
+    }
+
+    video, audio, .table-photo {
+        max-width: 100px !important;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .jumbotron {
+        padding: 30px !important;
+    }
+
+    .table-image {
+        max-width: 100px !important;
+    }
+
+    video, audio, .table-photo {
+        max-width: 150px !important;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .navbar-fixed-side .navbar-nav > li > a {
+        padding-left: 15px !important;
+    }
+
+    .navbar-brand > span > img {
+        max-height: 50px;
+    }
+
+    .col-sm-4 {
+        padding-right: 0 !important;
+    }
+
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    video, audio, .table-photo {
+        max-width: 150px !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .navbar-brand > span > img {
+        max-height: 100%;
+    }
+
+    .jumbotron {
+        margin-top: 0;
+    }
+
+    video, audio, .table-photo {
+        max-width: 250px !important;
+    }
+}

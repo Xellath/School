@@ -1,0 +1,100 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\m2560def.inc</FILE>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\keyboard.inc</FILE>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\Tarning.inc</FILE>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stat_data.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\Debug/AssemblerLab5.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerLab5.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerLab5.map</FILE>
+  <FILE>AssemblerLab5.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>80</LINE></init>
+  <welcome_string><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>65</LINE></welcome_string>
+  <rolling_string><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>66</LINE></rolling_string>
+  <value_string><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>67</LINE></value_string>
+  <roll_string><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>68</LINE></roll_string>
+  <delay_1_micros><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE><LINE>13</LINE></delay_1_micros>
+  <delay_micros><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE><LINE>31</LINE></delay_micros>
+  <delay_ms><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE><LINE>57</LINE></delay_ms>
+  <loop_dms><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE><LINE>59</LINE></loop_dms>
+  <delay_s><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE><LINE>81</LINE></delay_s>
+  <loop_ds><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE><LINE>83</LINE></loop_ds>
+  <delay_1_s><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\delay.inc</FILE><LINE>98</LINE></delay_1_s>
+  <chars><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>22</LINE></chars>
+  <lcd_init><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>140</LINE></lcd_init>
+  <lcd_write_byte><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>222</LINE></lcd_write_byte>
+  <lcd_write_string><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>162</LINE></lcd_write_string>
+  <iterate_str><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>163</LINE></iterate_str>
+  <end_of_str><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>172</LINE></end_of_str>
+  <lcd_write_char><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>186</LINE></lcd_write_char>
+  <mask_bit><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>226</LINE></mask_bit>
+  <bit_is_1><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>233</LINE></bit_is_1>
+  <write_to_lcd><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>235</LINE></write_to_lcd>
+  <lcd_clear><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>253</LINE></lcd_clear>
+  <loop><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\lcd.inc</FILE><LINE>255</LINE></loop>
+  <keys><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\keyboard.inc</FILE><LINE>26</LINE></keys>
+  <read_keyboard_num><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\keyboard.inc</FILE><LINE>46</LINE></read_keyboard_num>
+  <return_key><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\keyboard.inc</FILE><LINE>137</LINE></return_key>
+  <convert_to_ASCII><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\keyboard.inc</FILE><LINE>145</LINE></convert_to_ASCII>
+  <roll_dice><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\Tarning.inc</FILE><LINE>20</LINE></roll_dice>
+  <test><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\Tarning.inc</FILE><LINE>23</LINE></test>
+  <roll><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\Tarning.inc</FILE><LINE>29</LINE></roll>
+  <clearstring><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>9</LINE></clearstring>
+  <totalstring><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>11</LINE></totalstring>
+  <countones><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>13</LINE></countones>
+  <counttwos><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>15</LINE></counttwos>
+  <countthrees><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>17</LINE></countthrees>
+  <countfours><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>19</LINE></countfours>
+  <countfives><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>21</LINE></countfives>
+  <countsixs><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>23</LINE></countsixs>
+  <init_stat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>28</LINE></init_stat>
+  <clear_stat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stat_data.inc</FILE><LINE>71</LINE></clear_stat>
+  <hexconv><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>34</LINE></hexconv>
+  <printhex><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>35</LINE></printhex>
+  <showstat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>57</LINE></showstat>
+  <get_stat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stat_data.inc</FILE><LINE>58</LINE></get_stat>
+  <clearstat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stats.inc</FILE><LINE>110</LINE></clearstat>
+  <monitorstr><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>7</LINE></monitorstr>
+  <init_monitor><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>10</LINE></init_monitor>
+  <moni_read_keyboard><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>14</LINE></moni_read_keyboard>
+  <monireadquit><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>30</LINE></monireadquit>
+  <moni_akey><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>24</LINE></moni_akey>
+  <moni_print_address><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>33</LINE></moni_print_address>
+  <monitor><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>49</LINE></monitor>
+  <moni_next><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>55</LINE></moni_next>
+  <moniquit><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>79</LINE></moniquit>
+  <moni_more><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\monitor.inc</FILE><LINE>72</LINE></moni_more>
+  <throws_nbr><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stat_data.inc</FILE><LINE>25</LINE></throws_nbr>
+  <store_stat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\stat_data.inc</FILE><LINE>36</LINE></store_stat>
+  <init_pins><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>95</LINE></init_pins>
+  <init_pins_led><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>120</LINE></init_pins_led>
+  <main><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>130</LINE></main>
+  <main_loop><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>211</LINE></main_loop>
+  <checkkey><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>146</LINE></checkkey>
+  <rolling><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>168</LINE></rolling>
+  <clear__stat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>182</LINE></clear__stat>
+  <show__stat><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>192</LINE></show__stat>
+  <monitor__><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>187</LINE></monitor__>
+  <roll_again><FILE>C:\Users\ludwi\OneDrive\Dokument\Atmel Studio\6.2\AssemblerLab5\AssemblerLab5\AssemblerLab5.asm</FILE><LINE>197</LINE></roll_again>
+ </LABELS>
+</ASSEMBLER_INFO>
